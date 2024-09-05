@@ -1,0 +1,216 @@
+/* Rainbow button */
+/*
+button {
+  font-size: 1.4em;
+  padding: 0.6em 0.8em;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #000000b4;
+}
+
+.container {
+  position: relative;
+  padding: 3px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  border-radius: 0.9em;
+  transition: all 0.4s ease;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 0.9em;
+  z-index: -10;
+  filter: blur(0);
+  transition: filter 0.4s ease;
+}
+
+.container:hover::before {
+  background: linear-gradient(90deg, #03a9f4, #f441a5);
+  filter: blur(1.2em);
+}
+.container:active::before {
+  filter: blur(0.2em);
+}
+*/
+
+/* Github button */
+/*
+.button-icon {
+  display: flex;
+  border: 3px #fff solid;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.icon {
+  background-color: #fff;
+  padding: 10px 10px 5px 10px;
+}
+
+.icon svg {
+  width: 25px;
+  height: 25px;
+}
+
+.cube {
+  transition: all 0.4s;
+  transform-style: preserve-3d;
+  width: 200px;
+  height: 20px;
+}
+
+.button-icon:hover {
+  border-color: #ff98a2;
+}
+
+.button-icon:hover .cube {
+  transform: rotateX(90deg);
+}
+
+.side {
+  position: absolute;
+  height: 47px;
+  width: 200px;
+  display: flex;
+  font-size: 0.8em;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+
+.top {
+  background: #ff98a2;
+  color: #fff;
+  transform: rotateX(-90deg) translate3d(0, 13.5px, 2em);
+}
+
+.front {
+  background: #222229;
+  color: #fff;
+  transform: translate3d(0, 0, 1em);
+}
+*/
+
+/* Rotate Rainbow button */
+/*
+.button {
+    position: relative;
+    width: 120px;
+    height: 40px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    left: -4px;
+    top: -1px;
+    margin: auto;
+    width: 128px;
+    height: 48px;
+    border-radius: 10px;
+    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
+    z-index: -10;
+    pointer-events: none;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .button::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+    transform: translate3d(0, 0, 0) scale(0.95);
+    filter: blur(20px);
+  }
+  
+  .button:hover::after {
+    filter: blur(30px);
+  }
+  
+  .button:hover::before {
+    transform: rotate(-180deg);
+  }
+  
+  .button:active::before {
+    scale: 0.7;
+  }
+*/
+
+/* Send button */
+/*
+button {
+    font-family: inherit;
+    font-size: 20px;
+    background: royalblue;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  
+  button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+  }
+  
+  button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+  }
+  
+  button:hover span {
+    transform: translateX(5em);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  @keyframes fly-1 {
+    from {
+      transform: translateY(0.1em);
+    }
+  
+    to {
+      transform: translateY(-0.1em);
+    }
+  }
+*/

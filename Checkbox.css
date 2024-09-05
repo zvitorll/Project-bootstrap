@@ -1,0 +1,205 @@
+/*Rainbow checkbox*/
+/*
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+   }
+   
+   .container {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 25px;
+    user-select: none;
+   }
+   
+   .checkmark {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 1.3em;
+    width: 1.3em;
+    background: black;
+    border-radius: 50px;
+    transition: all 0.7s;
+    --spread: 20px;
+   }
+   
+   .container input:checked ~ .checkmark {
+    background: black;
+    box-shadow: -10px -10px var(--spread) 0px #5B51D8, 0 -10px var(--spread) 0px #833AB4, 10px -10px var(--spread) 0px #E1306C, 10px 0 var(--spread) 0px #FD1D1D, 10px 10px var(--spread) 0px #F77737, 0 10px var(--spread) 0px #FCAF45, -10px 10px var(--spread) 0px #FFDC80;
+   }
+   
+   .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+   }
+   
+   .container input:checked ~ .checkmark:after {
+    display: block;
+   }
+   
+   .container .checkmark:after {
+    left: 0.45em;
+    top: 0.25em;
+    width: 0.25em;
+    height: 0.5em;
+    border: solid #f0f0f0;
+    border-width: 0 0.15em 0.15em 0;
+    transform: rotate(45deg);
+   }
+*/
+
+/* Simple Checkbox */
+/*
+.check {
+  cursor: pointer;
+  position: relative;
+  margin: auto;
+  width: 18px;
+  height: 18px;
+  -webkit-tap-highlight-color: transparent;
+  transform: translate3d(0, 0, 0);
+}
+
+.check:before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(34,50,84,0.03);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.check svg {
+  position: relative;
+  z-index: 1;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #c8ccd4;
+  stroke-width: 1.5;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.2s ease;
+}
+
+.check svg path {
+  stroke-dasharray: 60;
+  stroke-dashoffset: 0;
+}
+
+.check svg polyline {
+  stroke-dasharray: 22;
+  stroke-dashoffset: 66;
+}
+
+.check:hover:before {
+  opacity: 1;
+}
+
+.check:hover svg {
+  stroke: #4285f4;
+}
+
+#cbx:checked + .check svg {
+  stroke: #4285f4;
+}
+
+#cbx:checked + .check svg path {
+  stroke-dashoffset: 60;
+  transition: all 0.3s linear;
+}
+
+#cbx:checked + .check svg polyline {
+  stroke-dashoffset: 42;
+  transition: all 0.2s linear;
+  transition-delay: 0.15s;
+}
+*/
+/*
+.checkbox-btn {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Light Checkbox */
+/*
+.checkbox-btn input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkbox-btn label {
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: 2.5px solid #ffffff;
+    transition: .2s linear;
+  }
+  .checkbox-btn input:checked ~ .checkmark {
+    background-color: transparent;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    left: 50%;
+    top: 40%;
+    width: 10px;
+    height: 14px;
+    border: 2px solid #0ea021;
+    filter: drop-shadow(0px 0px 10px #0ea021);
+    border-width: 0 2.5px 2.5px 0;
+    transition: .2s linear;
+    transform: translate(-50%, -50%) rotate(-90deg) scale(0.2);
+  }
+  
+  .checkbox-btn input:checked ~ .checkmark:after {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    animation: pulse 1s ease-in;
+  }
+  
+  .checkbox-btn input:checked ~ .checkmark {
+    transform: rotate(45deg);
+    border: none;
+  }
+  
+  @keyframes pulse {
+    0%,
+    100% {
+      transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotate(0deg) scale(1.6);
+    }
+  }
+  
+*/
